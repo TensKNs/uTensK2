@@ -1,0 +1,33 @@
+.navbar2{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    font-size: 50px;
+    margin-top: 0px;
+}
+body{
+    background-color: black;
+}
+p,h1{
+    color: #fff;
+}
+*{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
+.button{
+    border: solid #fff;
+    border-radius: 30px;
+    background-color: #fff;
+    text-decoration-color: transparent;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
