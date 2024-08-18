@@ -31,6 +31,7 @@ body{
     font-size: 150%;
     border-radius: 30px;
     padding: 1%;
+    max-height: 120%;
     margin-right: 25%;
     margin-left: 25%;
 }
