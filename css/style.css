@@ -1,64 +1,92 @@
-body{
-    background-color: black;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif
+body {
+  background-color: #000000;
 }
-*{
-    color: #ffffffe8;
-    box-sizing: border-box;
+
+nav {
+  background: rgb(26, 26, 26);
+  width: 460px;
+  display: flex;
+  border-radius: 22px;
+  justify-content: space-between;
+  padding: 5px;
+  box-shadow: 2px 2px 15px rgba(160, 160, 160, 0.562);
 }
-.navbar{
-    display: flex;
-    background-color: rgb(32, 32, 32);
-    justify-content: space-around;
-    text-align: center;
-    padding: 10px;
+
+.container2 {
+  display: flex;
+  justify-content: center;
 }
-.navlink{
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 20px;
-    transition: background-color 0.3s ease;
+nav > a {
+  color: #ffff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 22px;
 }
-.navlink:hover{
-    background-color: gray;
+nav > a:hover {
+  transition: 0.25s;
+  background: rgb(22, 22, 255);
+  color: rgb(50, 50, 50);
 }
-.text{
-    text-align: center;
-    border: solid gray;
-    font-size: 150%;
-    border-radius: 30px;
-    padding: 1%;
-    max-height: 120%;
-    margin-right: 25%;
-    margin-left: 25%;
+h2,
+h3 {
+  text-align: center;
+  color: white;
 }
-.contat{
-    text-align: center;
-    border: solid gray;
-    border-radius: 30px;
-    margin-right: 40%;
-    margin-left: 40%;
-    padding: 1%;
+.consoles {
+  display: flex;
+  justify-content: center;
 }
-.aboutme{
-    display: inline-flex;
-    justify-content: center;
-    text-align: center;
-    border: solid gray;
-    border-radius: 30px;
-    background: transparent;
-    text-decoration: none;
-    font-size: 170%;
-    margin: 1%;
+.consoles > div > img {
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.562);
 }
-.linkinter{
-    text-decoration: none;
+*p,
+h1,
+h2,
+h3,
+a {
+  font-family: 25%;
 }
-.container2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container > img {
+  border-radius: 30px;
+  box-shadow: 2px 2px 20px rgba(160, 160, 160, 0.562);
+  max-width: 600px;
+}
+.button1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.link1 {
+  text-decoration: none;
+  color: #000000;
+}
+.link1 {
+  font-size: 20px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+}
+
+.link1:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(30, 144, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.link1:active {
+  transform: translate(0em, 0.2em);
 }
